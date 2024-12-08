@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function performOperations() {
         const buttons = document.getElementsByClassName("operations");
+        const result = document.getElementById("result");
         buttons.forEach((button) => {
             button.addEventListener("click", () => {
                 const value = button.value;
